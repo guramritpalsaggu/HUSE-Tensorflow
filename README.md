@@ -32,12 +32,7 @@ tower through a shared fully connected layer and the model is trained using soft
 
 #### Cross Model Gap Loss
 
-This loss tries to minimize the universal embedding gap when an embedding for the same sample is created using either it's text representation, or it's image representation.
-For CrossModalLoss, we get the universal embeddings from the HUSE_model using only either image or text at once.
-
-- For obtaining universal embedding for text, we usa a Zero matrix { of appropriate shape } for representing the image - -embedding.
-- For obtaining universal embedding for image, we usa a Zero matrix { of appropriate shape } for representing the text embedding.
-To get the loss, we take the cosine distance between them. Since these embeddings are coming from the same sample ( and only different modal ), minimizing the distance between them bring the embeddings from the 2 modals closer in universal embedding space.
+This calculates the cross modal loss, it returns the cosine distance between the image and text embeddings of the same class.
 
 <img src="https://drive.google.com/uc?id=1hbhF8VxhcjgR0FI7QZDLPTpvdPy2W3_M" width="400">
 
