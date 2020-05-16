@@ -4,3 +4,5 @@ Implementation of HUSE: Hierarchical Universal Semantic Embeddings ( https://arx
 ### Dataset
 
 50k products accompanied along with its image, text and class name.
+
+![alt text](https://github.com/guramritpalsaggu/HUSE-Tensorflow/blob/master/resources/architecture.jpg)
