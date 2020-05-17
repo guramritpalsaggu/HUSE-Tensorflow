@@ -34,18 +34,18 @@ tower through a shared fully connected layer and the model is trained using soft
 
 This calculates the cross modal loss, it returns the cosine distance between the image and text embeddings of the same class.
 
-<img src="https://drive.google.com/uc?id=1hbhF8VxhcjgR0FI7QZDLPTpvdPy2W3_M" width="400">
+![alt text](https://github.com/guramritpalsaggu/HUSE-Tensorflow/blob/master/resources/cross-model-gap.jpg)
 
 #### Sementic Similarity Loss
 
 This calculates the semantic loss, it basically calculates the distance between the image embeddings and text embeddings of different classes
 and then they are compared to the distance between the respective class embeddings and the loss is calculated 
 
-<img src="https://drive.google.com/uc?id=19GqY4h7PHo4gTzn7DGls8vvY_DBqrw_w" width="400">
+![alt text](https://github.com/guramritpalsaggu/HUSE-Tensorflow/blob/master/resources/sementic-similiarity-loss.jpg)
 
 #### Class Level Similarity Loss
 
 This calculates the classification loss, we use simple categorical crossentropy loss for this.
 
-<img src="https://drive.google.com/uc?id=1ljP2SDj2mX-fZKJSGzfqECaPhh1VrNTJ" width="400">
+![alt text](https://github.com/guramritpalsaggu/HUSE-Tensorflow/blob/master/resources/class-level-similarity.jpg)
 
