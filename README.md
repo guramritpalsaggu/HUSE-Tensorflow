@@ -34,7 +34,7 @@ tower through a shared fully connected layer and the model is trained using soft
 
 This calculates the cross modal loss, it returns the cosine distance between the image and text embeddings of the same class.
 
-![alt text](https://github.com/guramritpalsaggu/HUSE-Tensorflow/blob/master/resources/cross-model-gap.jpg)
+![alt text width = 400](https://github.com/guramritpalsaggu/HUSE-Tensorflow/blob/master/resources/cross-model-gap.jpg)
 
 #### Sementic Similarity Loss
 
