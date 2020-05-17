@@ -41,11 +41,15 @@ This calculates the cross modal loss, it returns the cosine distance between the
 This calculates the semantic loss, it basically calculates the distance between the image embeddings and text embeddings of different classes
 and then they are compared to the distance between the respective class embeddings and the loss is calculated 
 
-![alt text](https://github.com/guramritpalsaggu/HUSE-Tensorflow/blob/master/resources/sementic-similiarity-loss.jpg)
+![alt text width = 400](https://github.com/guramritpalsaggu/HUSE-Tensorflow/blob/master/resources/sementic-similiarity-loss.jpg)
 
 #### Class Level Similarity Loss
 
 This calculates the classification loss, we use simple categorical crossentropy loss for this.
 
-![alt text](https://github.com/guramritpalsaggu/HUSE-Tensorflow/blob/master/resources/class-level-similarity.jpg)
+![alt text width = 400](https://github.com/guramritpalsaggu/HUSE-Tensorflow/blob/master/resources/class-level-similarity.jpg)
+
+#### Overall Loss
+
+![alt text width = 400](https://github.com/guramritpalsaggu/HUSE-Tensorflow/blob/master/resources/overall-loss.jpg)
 
