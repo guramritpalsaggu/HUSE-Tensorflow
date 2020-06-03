@@ -1,4 +1,7 @@
 # HUSE: Hierarchical Universal Semantic Embeddings
+
+![alt text](https://github.com/guramritpalsaggu/HUSE-Tensorflow/blob/master/resources/architecture.jpg)
+
 Implementation of HUSE: Hierarchical Universal Semantic Embeddings ( https://arxiv.org/pdf/1911.05978.pdf )
 
 This paper proposes a novel method, HUSE, to learn cross-modal representation with semantic information. HUSE learns a shared latent space where the distance between any two universal embeddings is similar to the distance between their corresponding class embeddings in the semantic embedding space. HUSE also uses a classification objective with a shared classification layer to make sure that the image and text embeddings are in the same shared latent space
@@ -14,7 +17,7 @@ The output from Graph-RISE is passed onto an Image Tower in parallel to output f
 ### PART3: INCORPORATING THREE  LOSSES INTO THE ARCHITECTURE:
 The paper incorporates three losses, for Class Level Similarity, Semantic Similarity, Cross Modal Gap. All three losses are explained in detail in the paper. Implementing these three losses is the main objective and thus carries the highest points.
 
-![alt text](https://github.com/guramritpalsaggu/HUSE-Tensorflow/blob/master/resources/architecture.jpg)
+
 
 
 ### Dataset
