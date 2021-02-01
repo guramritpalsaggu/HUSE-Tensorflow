@@ -15,9 +15,7 @@ HUSE being a Multimodal Model takes in two input, image and text. The Image is p
 The output from Graph-RISE is passed onto an Image Tower in parallel to output from BERT which is passed onto the Text Tower. The L2 normalized output from both the towers are further passed onto a shared fully connected layer. The output of the shared fully connected layer is further used to calculate different losses.
 
 ### PART3: INCORPORATING THREE  LOSSES INTO THE ARCHITECTURE:
-The paper incorporates three losses, for Class Level Similarity, Semantic Similarity, Cross Modal Gap. All three losses are explained in detail in the paper. Implementing these three losses is the main objective and thus carries the highest points.
-
-
+The paper incorporates three losses, for Class Level Similarity, Semantic Similarity, Cross Modal Gap. All three losses are explained below. Implementing these three losses is the main objective.
 
 
 ### DATASET
@@ -26,11 +24,11 @@ The paper incorporates three losses, for Class Level Similarity, Semantic Simila
 
 ### IMAGE EMBEDDINGS INPUT MODEL
 
-Images are represented to vector embedding space using the img2vec pretrained library. This library uses the ResNet50 model in TensorFlow Keras, pre-trained on Imagenet, to generate image embeddings.
+Images are represented to vector embedding space using the img2vec pretrained library. This library uses the ResNet50 model in TensorFlow Keras, pre-trained on Imagenet, to generate image embeddings. 
 
 ### TEXT EMBEDDINGS INPUT MODEL 
 
-We used BERT pretrained text model for representing text into embedding space. Text embedding created from this part of the model are forwarded into the text tower.
+We used BERT pretrained text model for representing text into embedding space. Text embedding created from this part of the model are forwarded into the text tower. 
 
 ### UNIVERSAL SENTENCE ENCODER
 
